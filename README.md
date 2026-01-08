@@ -37,8 +37,8 @@ Before running the bot, you need to set it up on Discord:
 ### 2. Local Environment Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/GH0ST-codes-pl/BOT-DISCORD-DO-USUWANIA-CZ-ONK-W-PO-RANDZE.git
-   cd BOT-DISCORD-DO-USUWANIA-CZ-ONK-W-PO-RANDZE
+   git clone https://github.com/GH0ST-codes-pl/discord-role-purge-bot.git
+   cd discord-role-purge-bot
    ```
 
 2. **Install dependencies:**
