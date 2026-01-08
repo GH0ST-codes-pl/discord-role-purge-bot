@@ -1,0 +1,24 @@
+{
+    "name": "discord-role-purge-bot",
+    "version": "1.0.0",
+    "description": "A Discord bot for mass-kicking members based on a specific role ID with safety confirmation and rate-limiting.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "cleanup",
+        "purge",
+        "role",
+        "kick"
+    ],
+    "author": "GH0ST",
+    "license": "MIT",
+    "type": "commonjs",
+    "dependencies": {
+        "discord.js": "^14.25.1",
+        "dotenv": "^17.2.3"
+    }
+}

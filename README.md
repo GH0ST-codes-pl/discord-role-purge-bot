@@ -21,6 +21,20 @@ A specialized tool designed to assist Discord server administrators in performin
 
 ## 🛠️ Installation & Setup
 
+### 1. Discord Developer Portal Configuration
+Before running the bot, you need to set it up on Discord:
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click **"New Application"** and give it a name.
+3. Navigate to the **"Bot"** tab on the left sidebar.
+4. Under **"Privileged Gateway Intents"**, enable the **"Server Members Intent"** (CRITICAL: the bot cannot see members without this).
+5. Click **"Reset Token"** or **"Copy"** to get your bot token. Keep this safe!
+6. To invite the bot to your server:
+   - Go to **"Installation"** (or **"OAuth2"** -> **"URL Generator"**).
+   - Select the `bot` scope.
+   - Select the **"Kick Members"** permission.
+   - Copy the generated URL and open it in your browser to invite the bot.
+
+### 2. Local Environment Setup
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/GH0ST-codes-pl/BOT-DISCORD-DO-USUWANIA-CZ-ONK-W-PO-RANDZE.git
@@ -33,15 +47,12 @@ A specialized tool designed to assist Discord server administrators in performin
    ```
 
 3. **Configure Environment Variables:**
-   Create a `.env` file in the root directory (you can copy `.env.example` if available):
+   Create a `.env` file in the root directory:
    ```env
    DISCORD_TOKEN=your_bot_token_here
    GUILD_ID=your_server_id_here
    ROLE_ID=id_of_the_role_to_purge
    ```
-
-4. **Enable Gateway Intents:**
-   Go to the **Discord Developer Portal** > your application > **Bot** > Enable **"Server Members Intent"**.
 
 ## 📖 Usage
 
